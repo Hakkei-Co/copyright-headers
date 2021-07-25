@@ -1,0 +1,252 @@
+{
+  "editor.tabSize": 2,
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-d>": false,
+    "<C-x>": false,
+    "<C-f>": false,
+    "<C-a>": false,
+    "<C-b>": false,
+    "<C-w>": false,
+    "<C-h>": false
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#8FBCBB", "#000"],
+  "vim.statusBarColors.insert": ["#BF616A", "#000"],
+  "vim.statusBarColors.visual": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "workbench.colorCustomizations": {
+    "editor.rangeHighlightBackground": "#00AA00",
+    "statusBar.background": "#8FBCBB",
+    "statusBar.noFolderBackground": "#8FBCBB",
+    "statusBar.debuggingBackground": "#8FBCBB",
+    "statusBar.foreground": "#000",
+    "activityBar.background": "#0e304d",
+    "titleBar.activeBackground": "#061522",
+    "titleBar.activeForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#0e304d",
+    "activityBar.activeBorder": "#bd2276",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#bd2276",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#0e304d",
+    "titleBar.inactiveBackground": "#06152299",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "editor.snippetSuggestions": "inline",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "top",
+    "editor.showUnused": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false,
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+  "launch": {},
+  "remote.WSL.fileWatcher.polling": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "trailing",
+  "remote.SSH.remotePlatform": {
+    "aws": "linux"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "sync.gist": "89a5f64a49dd70d3a6300451e80557e9",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.run": "onSave",
+  "eslint.format.enable": false,
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingColumn": 0,
+  "files.autoSave": "off",
+  "vim.enableNeovim": false,
+  "terminal.integrated.allowChords": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "cmake.configureOnOpen": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "redhat.telemetry.enabled": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "github-actions.org-features": true,
+  "json.schemas": [],
+  "psi-header.variables": [
+    ["company", "Hakkei Co."],
+    ["author", "Jonathan Lau"],
+    ["authoremail", "jon@jonathanlau.io"],
+    ["website", "https://hakkei.co"],
+    ["initials", "JL"],
+    ["projectCreationYear", "2021"],
+    ["github-org", "github/hakkei-co"],
+    ["github-user", "github/laujonat"]
+  ],
+  "psi-header.config": {
+    "forceToTop": true,
+    "blankLinesAfter": 4
+  },
+  "psi-header.changes-tracking": {
+    "autoHeader": "autoSave",
+    "isActive": true,
+    "modAuthor": "@lastModifiedBy:   ",
+    "modDate": "@lastModifiedTime: ",
+    "include": [],
+    "includeGlob": [],
+    "exclude": ["markdown", "json", "jsonc", "shellscript"],
+    "excludeGlob": ["./**/*/ignoreme.*"],
+    "enforceHeader": true,
+    "replace": ["Filename:", "Project"],
+    "updateLicenseVariables": false
+  },
+  "psi-header.lang-config": [
+    {
+      "language": "javascript",
+      "begin": "/*",
+      "prefix": "",
+      "suffix": " ",
+      "lineLength": 80,
+      "end": " */",
+      "forceToTop": true,
+      "blankLinesAfter": 3,
+      "beforeHeader": [],
+      "afterHeader": [],
+      "rootDirFileName": "package.json",
+      "modAuthor": "Modified By:",
+      "modDate": "Last Modified:",
+      "modDateFormat": "dd/MM/yyyy hh:nn:ss",
+      "replace": ["Filename:", "Project"],
+      "ignoreLines": []
+    },
+    {
+      "language": "typescript",
+      "mapTo": "javascript"
+    },
+    {
+      "language": "markdown",
+      "begin": "\n",
+      "prefix": "[//]: <> ",
+      "suffix": "",
+      "end": " ",
+      "forceToTop": true,
+      "blankLinesAfter": 2
+    }
+  ],
+  "psi-header.templates": [
+    {
+      "language": "*",
+      "template": [
+        "Copyright (c) <<year>> <<company>> <<github-org>>",
+        "",
+        "Created Date: <<filecreated('dddd, MMMM Do YYYY, h:mm:ss a')>>",
+        "Author: <<author>> <<github-user>>",
+        "",
+        "Redistribution and use in source and binary forms, with or without",
+        "modification, are permitted provided that the following conditions are",
+        "met:",
+        "",
+        "1. Redistributions of source code must retain the above copyright notice,",
+        "this list of conditions and the following disclaimer.",
+        "",
+        "2. Redistributions in binary form must reproduce the above copyright",
+        "notice, this list of conditions and the following disclaimer in the",
+        "documentation and/or other materials provided with the distribution.",
+        "",
+        "3. Neither the name of the copyright holder nor the names of its",
+        "contributors may be used to endorse or promote products derived from this",
+        "software without specific prior written permission.",
+        "",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS",
+        "IS AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,",
+        "THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR ",
+        "PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR",
+        "CONTRIBUTORS BE",
+        "LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR",
+        "CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF",
+        "SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS",
+        "INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN",
+        "CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)",
+        "ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF",
+        "THE POSSIBILITY OF SUCH DAMAGE.",
+        "",
+        "HISTORY:",
+        "Date      \tBy\tComments",
+        "----------\t---\t----------------------------------------------------------"
+      ],
+      "changeLogCaption": "HISTORY:",
+      "changeLogHeaderLineCount": 2,
+      "changeLogEntryTemplate": ["<<dateformat('YYYY-MM-DD')>>\t<<initials>>\t"]
+    }
+  ]
+}
+
