@@ -20,7 +20,7 @@
     "modDate": "@lastModifiedTime: ",
     "include": [],
     "includeGlob": [],
-    "exclude": ["markdown", "json", "jsonc", "shellscript"],
+    "exclude": ["markdown", "yaml", "yml", "json", "jsonc", "shellscript"],
     "excludeGlob": ["./**/*/ignoreme.*"],
     "enforceHeader": true,
     "replace": ["Filename:", "Project"],
