@@ -19,12 +19,13 @@ if [ "" = "$PKG_OK" ]; then
 fi
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  # being lazy, sorry
   code --install-extension psioniq.psi-header
   sudo apt-get --yes install $REQUIRED_PKG
 elif [[ "$OSTYPE" == "darwin"* ]]; then
+  # being lazy, sorry
   code --install-extension psioniq.psi-header
   brew install $REQUIRED_PKG
-  exit 0
 else
   echo "Unsupported OS. Sorry."
   exit 0
