@@ -2,7 +2,7 @@
 
 ## Usage
 
-Assumes you have VSCode installed.
+Install [psioniq Header extensions from Visual Studio.](https://marketplace.visualstudio.com/items?itemName=psioniq.psi-header#language-configuration)
 
 Fill in the fields in `paste-this-into-vscode-user-settings.json` and copy and paste them into your VSCode user settings.
 
